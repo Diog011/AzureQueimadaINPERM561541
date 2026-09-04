@@ -20,7 +20,7 @@ variable "sql_db_name" {
 }
 
 variable "function_app_name" {
-  default = "func-queimadas-pf0807"
+  default = "func-queimadas-rm561541"
 }
 
 variable "storage_account_name" {

@@ -72,7 +72,7 @@ jobs:
         run: |
           echo "Aguardando a Function App ficar disponível..."
           for i in $(seq 1 10); do
-            if az functionapp show --name func-queimadas-pf0807 --resource-group rg-monitor-queimadas > /dev/null 2>&1; then
+            if az functionapp show --name func-queimadas-rm561541 --resource-group rg-monitor-queimadas > /dev/null 2>&1; then
               echo "Function App encontrada e disponível na tentativa $i."
               exit 0
             fi
@@ -96,5 +96,5 @@ jobs:
       - name: Deploy Function Code
         uses: Azure/functions-action@v1
         with:
-          app-name: func-queimadas-pf0807
+          app-name: func-queimadas-rm561541
           package: function
