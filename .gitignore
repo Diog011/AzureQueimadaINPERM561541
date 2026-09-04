@@ -16,3 +16,8 @@
 # Azure Functions settings locais
 **/local.settings.json
 azure-credentials.json
+
+__pycache__/
+*.pyc
+*.plan
+azure-credentials.json

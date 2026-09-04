@@ -88,5 +88,5 @@ jobs:
       - name: Deploy Function Code
         uses: Azure/functions-action@v1
         with:
-          app-name: func-queimadas-561541
+          app-name: func-queimadas-pf0807
           package: function
