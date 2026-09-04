@@ -21,3 +21,5 @@ __pycache__/
 *.pyc
 *.plan
 azure-credentials.json
+tfplan
+infra/tfplan
