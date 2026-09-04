@@ -1,5 +1,6 @@
 # AzureQueimadasINPE
 
+#Rm 
 Projeto de exemplo em Azure para coletar focos de queimadas (INPE) via HTTP Trigger (Azure Functions em Python), persistir em MySQL Flexible Server e automatizar infraestrutura + deploy com Terraform e GitHub Actions.
 
 ## Visão geral
